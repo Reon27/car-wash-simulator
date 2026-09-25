@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出張手洗い洗車 | neu start（ノイシュタルト）生駒</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Shippori Mincho", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "MS PMincho", serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-stone-800 min-h-screen flex flex-col items-center justify-start antialiased selection:bg-amber-500 selection:text-white pb-32 sm:pb-24">
+
+    <!-- ヘッダー（上部・白） -->
+    <header class="w-full bg-white border-b border-stone-200 py-4 px-6 sm:px-12 sticky top-0 z-40 flex justify-between items-center shadow-sm">
+        <div class="flex items-center">
+            <img src="logo.jpg" alt="Neu Start mobile CAR WASH" class="h-10 sm:h-12 w-auto object-contain">
+        </div>
+        <nav class="flex items-center space-x-4 text-sm sm:text-base font-sans">
+            <a href="#simulator" class="bg-stone-100 text-stone-700 border border-stone-300 px-4 py-2 rounded-lg font-medium hover:bg-stone-200 transition">料金・見積</a>
+            <a href="#faq" class="hidden sm:inline-block text-stone-600 hover:text-stone-900 font-medium transition">よくある質問</a>
+            <a href="#contact" class="bg-stone-900 text-white px-5 py-2 rounded-lg font-bold hover:bg-stone-800 transition shadow-sm">ご予約</a>
+        </nav>
+    </header>
+
+    <!-- メインコンテンツ全体 -->
+    <div class="w-full max-w-7xl bg-[#FDFBF7] shadow-lg flex flex-col my-0 sm:my-8 sm:rounded-2xl overflow-hidden border border-stone-200/60">
+
+        <!-- ヒーローセクション -->
+        <section class="p-8 sm:p-16 bg-gradient-to-b from-[#F7F4EB] to-[#FDFBF7] border-b border-amber-900/10 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-10">
+            <div class="space-y-6 max-w-2xl">
+                <span class="inline-block bg-[#F4EFE6] text-amber-900 border border-amber-900/10 text-xs sm:text-sm px-4 py-1.5 rounded-full font-medium tracking-wider font-sans">
+                    生駒を拠点に幅広く出張対応・出張手洗い洗車
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-bold text-stone-900 tracking-tight leading-tight">
+                    車を動かさず、<span class="text-amber-800 font-bold">極上の輝き</span>を手に入れる。
+                </h2>
+                <p class="text-sm sm:text-base text-stone-700 leading-relaxed font-sans">
+                    「洗車に行く時間がない」「子供の面倒で手が離せない」そんなあなたへ。ノイシュタルトが生駒市を拠点に、ご自宅の駐車スペースまで伺い、シミを残さない純水を使った丁寧な手洗い洗車をお届けします。
+                </p>
+            </div>
+            <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 sm:p-8 rounded-2xl shadow-sm w-full sm:w-96 text-center space-y-4 shrink-0">
+                <p class="text-xs sm:text-sm text-stone-600 font-bold tracking-wider font-sans">クイック料金目安</p>
+                <p class="text-3xl sm:text-4xl font-bold text-stone-900">軽自動車 <span class="text-amber-800">¥2,000〜</span></p>
+                <a href="#simulator" class="block w-full bg-stone-900 hover:bg-stone-800 text-white font-bold py-3.5 rounded-xl text-sm sm:text-base transition shadow-sm font-sans">
+                    今すぐ料金をシミュレーション
+                </a>
+            </div>
+        </section>
+
+        <!-- クイックジャンプ（目次） -->
+        <div class="bg-[#F4EFE6] border-b border-amber-900/10 py-3.5 px-6 sm:px-12 font-sans">
+            <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs sm:text-sm font-medium text-stone-700">
+                <a href="#features" class="hover:text-amber-800 transition underline underline-offset-4">選ばれる3つの理由</a>
+                <a href="#flow" class="hover:text-amber-800 transition underline underline-offset-4">ご利用の流れ</a>
+                <a href="#simulator" class="hover:text-amber-800 transition underline underline-offset-4">料金シミュレーション</a>
+                <a href="#faq" class="hover:text-amber-800 transition underline underline-offset-4">よくあるご質問</a>
+                <a href="#contact" class="hover:text-amber-800 transition underline underline-offset-4">ご予約・お問合せ</a>
+            </div>
+        </div>
+
+        <!-- メインコンテンツ本体 -->
+        <main class="p-6 sm:p-14 space-y-12 sm:space-y-20 flex-1">
+
+            <!-- 特徴セクション -->
+            <section id="features" class="space-y-6 pt-4">
+                <div class="text-center">
+                    <h3 class="text-xs sm:text-sm font-bold text-amber-800 tracking-widest uppercase font-sans">Features</h3>
+                    <h4 class="text-xl sm:text-3xl font-bold text-stone-900 mt-1">選ばれる3つの理由</h4>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 sm:p-8 rounded-xl space-y-3 shadow-xs">
+                        <div class="flex items-center space-x-3">
+                            <span class="w-7 h-7 rounded-full bg-amber-200/60 text-amber-900 flex items-center justify-center text-sm font-bold shrink-0 font-sans">1</span>
+                            <h5 class="font-bold text-base sm:text-lg text-stone-900">ご自宅の駐車スペースで完結</h5>
+                        </div>
+                        <p class="text-sm text-stone-700 leading-relaxed font-sans">電源や水道をお借りするだけでOK。店舗への持ち込みや待ち時間は一切不要です。</p>
+                    </div>
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 sm:p-8 rounded-xl space-y-3 shadow-xs">
+                        <div class="flex items-center space-x-3">
+                            <span class="w-7 h-7 rounded-full bg-amber-200/60 text-amber-900 flex items-center justify-center text-sm font-bold shrink-0 font-sans">2</span>
+                            <h5 class="font-bold text-base sm:text-lg text-stone-900">シミを残さない「純水」を使用</h5>
+                        </div>
+                        <p class="text-sm text-stone-700 leading-relaxed font-sans">水道水に含まれるミネラル分を完全に除去した純水洗車により、ボディに水ジミを残しません。</p>
+                    </div>
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 sm:p-8 rounded-xl space-y-3 shadow-xs">
+                        <div class="flex items-center space-x-3">
+                            <span class="w-7 h-7 rounded-full bg-amber-200/60 text-amber-900 flex items-center justify-center text-sm font-bold shrink-0 font-sans">3</span>
+                            <h5 class="font-bold text-base sm:text-lg text-stone-900">明確で分かりやすい料金体系</h5>
+                        </div>
+                        <p class="text-sm text-stone-700 leading-relaxed font-sans">車種ごとの定額制。事前の簡易シミュレーションで、その場で納得の料金が分かります。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 施工の流れ -->
+            <section id="flow" class="bg-[#F7F4EB] border border-amber-900/10 rounded-2xl p-6 sm:p-10 shadow-xs pt-4">
+                <h3 class="text-xs sm:text-sm font-bold text-amber-800 tracking-widest uppercase mb-1 text-center font-sans">Flow</h3>
+                <h4 class="text-xl sm:text-3xl font-bold text-stone-900 mb-8 text-center">ご利用の流れ</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm sm:text-base text-stone-700">
+                    <div class="bg-[#FDFBF7] p-6 rounded-xl border border-amber-900/10 space-y-3 shadow-xs">
+                        <span class="bg-stone-900 text-white font-bold px-2.5 py-1 rounded text-xs font-sans">STEP 1</span>
+                        <p class="font-bold text-stone-900 text-base sm:text-lg">お見積り・ご予約</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">シミュレーターで料金を確認し、公式LINEまたはお問い合わせからご予約。</p>
+                    </div>
+                    <div class="bg-[#FDFBF7] p-6 rounded-xl border border-amber-900/10 space-y-3 shadow-xs">
+                        <span class="bg-stone-900 text-white font-bold px-2.5 py-1 rounded text-xs font-sans">STEP 2</span>
+                        <p class="font-bold text-stone-900 text-base sm:text-lg">ご自宅へ訪問</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">ご指定の日時にご自宅へお伺いします。（お立会いは最初と最後のみでOK）</p>
+                    </div>
+                    <div class="bg-[#FDFBF7] p-6 rounded-xl border border-amber-900/10 space-y-3 shadow-xs">
+                        <span class="bg-stone-900 text-white font-bold px-2.5 py-1 rounded text-xs font-sans">STEP 3</span>
+                        <p class="font-bold text-stone-900 text-base sm:text-lg">施工・お支払い</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">丁寧に手洗い洗車を行い、ご確認後に各種決済でお支払い。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 見積もりシミュレーター -->
+            <section id="simulator" class="space-y-8 pt-4">
+                <div class="text-center">
+                    <h3 class="text-xs sm:text-sm font-bold text-amber-800 tracking-widest uppercase font-sans">Simulator</h3>
+                    <h4 class="text-xl sm:text-3xl font-bold text-stone-900 mt-1">料金シミュレーション</h4>
+                    <p class="text-sm sm:text-base text-stone-600 font-sans mt-1">車種とオプションを選ぶだけでその場の金額が分かります</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- STEP 1: 車種クラス選択 -->
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 rounded-2xl p-6 sm:p-8 shadow-xs flex flex-col justify-between">
+                        <div>
+                            <h5 class="text-base sm:text-lg font-semibold text-stone-900 uppercase tracking-wider mb-5 font-sans">Step 1. 車種クラスを選択</h5>
+                            <div class="space-y-3.5" id="car-classes">
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="radio" name="carClass" value="2000" data-name="Sクラス（軽自動車）" class="text-amber-700 focus:ring-amber-500 h-5 w-5" checked>
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">Sクラス：軽自動車</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">N-BOX、ハスラー、アルト 等</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-lg sm:text-xl text-stone-900">¥2,000</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="radio" name="carClass" value="3000" data-name="Mクラス（コンパクト・小型セダン）" class="text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">Mクラス：コンパクト</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">アクア、プリウス、フィット 等</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-lg sm:text-xl text-stone-900">¥3,000</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="radio" name="carClass" value="4000" data-name="Lクラス（SUV・ミドルワゴン）" class="text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">Lクラス：SUV・ワゴン</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">RAV4、ハリアー 等</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-lg sm:text-xl text-stone-900">¥4,000</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="radio" name="carClass" value="5000" data-name="LLクラス（大型SUV・大型ミニバン）" class="text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">LLクラス：大型SUV等</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">アルファード、ランクル 等</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-lg sm:text-xl text-stone-900">¥5,000</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: オプション選択 -->
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 rounded-2xl p-6 sm:p-8 shadow-xs flex flex-col justify-between">
+                        <div>
+                            <h5 class="text-base sm:text-lg font-semibold text-stone-900 uppercase tracking-wider mb-5 font-sans">Step 2. オプション追加（任意）</h5>
+                            <div class="space-y-3.5" id="options">
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="checkbox" name="option" value="1000" data-name="撥水コーティング仕上げ" data-time="15" class="rounded text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">撥水コーティング仕上げ</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">スプレー施工＆艶出し</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-base sm:text-lg text-stone-900">+¥1,000</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="checkbox" name="option" value="2000" data-name="スケール・水アカ除去" data-time="30" class="rounded text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">スケール・水アカ除去</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">イオンデポジット除去</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-base sm:text-lg text-stone-900">+¥2,000</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="checkbox" name="option" value="1500" data-name="鉄粉除去" data-time="20" class="rounded text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">鉄粉除去</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">ザラザラ解消</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-base sm:text-lg text-stone-900">+¥1,500</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="checkbox" name="option" value="1500" data-name="窓ガラス油膜取り" data-time="15" class="rounded text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">窓ガラス油膜取り</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">視界すっきりクリア</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-base sm:text-lg text-stone-900">+¥1,500</span>
+                                </label>
+
+                                <label class="flex items-center justify-between p-4.5 rounded-xl border border-amber-900/10 bg-[#FDFBF7] cursor-pointer hover:border-amber-600 transition shadow-xs">
+                                    <div class="flex items-center space-x-4">
+                                        <input type="checkbox" name="option" value="2500" data-name="プレミアム車内リフレッシュ" data-time="30" class="rounded text-amber-700 focus:ring-amber-500 h-5 w-5">
+                                        <div>
+                                            <p class="font-medium text-base sm:text-lg text-stone-900">プレミアム車内リフレッシュ</p>
+                                            <p class="text-xs sm:text-sm text-stone-600 font-sans">掃除機・内窓拭き</p>
+                                        </div>
+                                    </div>
+                                    <span class="font-bold text-base sm:text-lg text-stone-900">+¥2,500</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- よくある質問 (FAQ) -->
+            <section id="faq" class="space-y-6 pt-4">
+                <div class="text-center">
+                    <h3 class="text-xs sm:text-sm font-bold text-amber-800 tracking-widest uppercase font-sans">FAQ</h3>
+                    <h4 class="text-xl sm:text-3xl font-bold text-stone-900 mt-1">よくあるご質問</h4>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm sm:text-base text-stone-700">
+                    
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 出張費や交通費はかかりますか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. 生駒市を拠点に、片道1時間以内の範囲は<span class="font-bold text-amber-800">出張費無料</span>です。片道1時間超の地域は1時間ごとに＋1,000円を頂戴しております。（※Googleマップの標準所要時間を基準に算出いたします）</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 雨の日の施工やキャンセルはどうなりますか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. 実は雨の日は「空気中のホコリが舞いにくい」「ボディの汚れがふやけて落ちやすい」といったメリットもございます。ただし悪天候が予想される場合、前日までにご連絡いただければ<span class="font-bold text-amber-800">キャンセル・日程変更は無料</span>ですのでご安心ください。</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 水道や電気の準備は必要ですか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. 一般的な家庭用水道（蛇口）と電源（100Vコンセント）をお借りできれば、それ以外の専用器具や純水器等はすべてこちらで持参いたします。</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 洗車中の排水や水しぶきが心配です。</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. 周囲へ極力水が飛び散らないよう配慮して作業を行っております。また、使用する洗剤は環境に配慮したものを使用しておりますが、大量の排水が流れる場所については事前に確認させていただきます。</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 洗車中の騒音はうるさいですか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. 基本は手洗い中心の作業となりますので、大きなエンジン音や騒音を発し続けることはございません。早朝や夜間を除けば、ご近所のご迷惑になるような音はほぼありませんのでご安心ください。</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 駐車スペースはどれくらい必要ですか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. お車の左右どちらかと前後どちらかに、大人が歩いて作業できるスペース（50cm〜1m程度）があれば施工可能です。</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 洗車中に外出しても大丈夫ですか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. 最初のお車確認と、最後の仕上がりチェック時のみお立会いをお願いしております。施工中の時間はご自宅で自由にお過ごしいただけます。</p>
+                    </div>
+
+                    <div class="bg-[#F7F4EB] border border-amber-900/10 p-6 rounded-xl space-y-2 shadow-xs">
+                        <p class="font-bold text-base sm:text-lg text-stone-900">Q. 支払い方法は何がありますか？</p>
+                        <p class="text-stone-700 leading-relaxed font-sans">A. お支払い方法は「現金」または「PayPay（ペイペイ）」に対応しております。</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- お問い合わせ・ご予約セクション -->
+            <section id="contact" class="bg-[#F7F4EB] border border-amber-900/10 rounded-2xl p-8 sm:p-12 text-center space-y-6 shadow-xs pt-4">
+                <h3 class="text-xs sm:text-sm font-bold text-amber-800 tracking-widest uppercase font-sans">Contact</h3>
+                <h4 class="text-2xl sm:text-4xl font-bold text-stone-900">ご予約・お問い合わせ</h4>
+                <p class="text-sm sm:text-lg text-stone-700 max-w-2xl mx-auto leading-relaxed font-sans">
+                    ご質問やご予約は公式LINEまたはお電話よりお気軽にご連絡ください。
+                </p>
+                <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://line.me" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-10 py-4 rounded-xl shadow-sm transition text-base flex items-center justify-center space-x-2 font-sans">
+                        <span>LINEで簡単予約・相談</span>
+                    </a>
+                    <!-- インスタグラムリンク -->
+                    <a href="https://instagram.com/neustart_mobilecarwash" target="_blank" class="bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 hover:opacity-90 text-white font-bold px-10 py-4 rounded-xl shadow-sm transition text-base flex items-center justify-center space-x-2 font-sans">
+                        <span>Instagramを見る</span>
+                    </a>
+                    <a href="tel:0000000000" class="bg-[#ECE6DC] hover:bg-[#E2DACF] text-stone-800 font-bold px-10 py-4 rounded-xl transition text-base flex items-center justify-center space-x-2 font-sans">
+                        <span>お電話でのお問い合わせ</span>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- フッター情報 -->
+        <footer class="bg-[#F7F4EB] border-t border-amber-900/10 py-10 px-8 text-center text-sm text-stone-600 space-y-4">
+            <div class="flex justify-center">
+                <img src="logo.jpg" alt="Neu Start" class="h-10 w-auto object-contain opacity-90">
+            </div>
+            <p class="font-sans">生駒を拠点に幅広く出張対応いたします</p>
+            <p class="font-sans">&copy; 2026 neu start All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- 固定フッター（下の横長部分：白） -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur border-t border-stone-200 p-4 sm:px-12 shadow-lg z-30">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div>
+                <p class="text-xs sm:text-sm text-stone-500 font-sans">推定時間: <span id="total-time" class="text-stone-900 font-bold">約 45</span>分</p>
+                <div class="flex items-baseline space-x-2">
+                    <span class="text-xs sm:text-sm text-stone-600 font-sans">合計（税込）</span>
+                    <span id="total-price" class="text-2xl sm:text-4xl font-bold text-amber-800">¥2,000</span>
+                </div>
+            </div>
+            <a href="#contact" class="bg-stone-900 hover:bg-stone-800 text-white font-bold px-6 py-3 sm:px-10 sm:py-4 rounded-xl shadow-lg transition active:scale-95 text-sm sm:text-base flex items-center justify-center font-sans">
+                この内容で予約・相談
+            </a>
+        </div>
+    </div>
+
+    <!-- 計算ロジック用 JavaScript -->
+    <script>
+        const carClassRadios = document.querySelectorAll('input[name="carClass"]');
+        const optionCheckboxes = document.querySelectorAll('input[name="option"]');
+        const totalPriceElement = document.getElementById('total-price');
+        const totalTimeElement = document.getElementById('total-time');
+
+        function calculateTotal() {
+            let basePrice = 0;
+            carClassRadios.forEach(radio => {
+                if (radio.checked) {
+                    basePrice = parseInt(radio.value);
+                }
+            });
+
+            let baseTime = 45; 
+            let optionsPrice = 0;
+            let optionsTime = 0;
+
+            optionCheckboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    optionsPrice += parseInt(checkbox.value);
+                    optionsTime += parseInt(checkbox.dataset.time || 0);
+                }
+            });
+
+            const grandTotal = basePrice + optionsPrice;
+            const grandTime = baseTime + optionsTime;
+
+            totalPriceElement.textContent = `¥${grandTotal.toLocaleString()}`;
+            totalTimeElement.textContent = `約 ${grandTime}`;
+        }
+
+        carClassRadios.forEach(radio => {
+            radio.addEventListener('change', calculateTotal);
+        });
+
+        optionCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', calculateTotal);
+        });
+
+        calculateTotal();
+    </script>
+</body>
+</html>
